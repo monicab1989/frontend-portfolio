@@ -1,0 +1,34 @@
+.tech-card {
+  display: grid;
+  gap: 0.7rem;
+  height: 100%;
+  padding: 1.25rem;
+  border: 0.0625rem solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.9rem;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-size: 1.35rem;
+}
+
+.tech-card__title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.tech-card__description {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}

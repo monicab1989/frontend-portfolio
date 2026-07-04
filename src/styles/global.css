@@ -1,0 +1,17 @@
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-body);
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+:focus-visible {
+  outline: 0.125rem solid var(--color-primary);
+  outline-offset: 0.125rem;
+}

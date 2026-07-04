@@ -1,0 +1,30 @@
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-height: 3rem;
+  padding: 0.75rem 1rem;
+  border: 0.0625rem solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--color-text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.social-link svg {
+  flex-shrink: 0;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  transform: translateY(-0.125rem);
+  border-color: color-mix(in srgb, var(--color-primary) 28%, var(--color-border));
+  box-shadow: var(--shadow-sm);
+}

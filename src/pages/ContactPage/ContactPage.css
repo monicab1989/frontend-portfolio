@@ -1,0 +1,11 @@
+.page {
+  display: grid;
+  gap: var(--space-12);
+  padding: var(--space-6) 0 var(--space-12);
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}

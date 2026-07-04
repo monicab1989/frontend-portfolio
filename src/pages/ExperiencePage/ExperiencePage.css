@@ -1,0 +1,115 @@
+.page {
+  display: grid;
+  gap: var(--space-12);
+  padding: var(--space-6) 0 var(--space-12);
+}
+
+.experience-section {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.experience-secondary {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-card {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1.25rem;
+  border: 0.0625rem solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: var(--shadow-sm);
+}
+
+.timeline-card--primary {
+  border-color: rgba(29, 78, 216, 0.18);
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(29, 78, 216, 0.08),
+      transparent 32%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.98),
+      rgba(248, 251, 255, 0.96)
+    );
+  box-shadow: var(--shadow-md);
+}
+
+.timeline-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.timeline-card__eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.timeline-card__title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.timeline-card__company {
+  margin: 0.35rem 0 0;
+  color: var(--color-text-muted);
+}
+
+.timeline-card__period {
+  margin: 0;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-primary-soft);
+  color: var(--color-primary-strong);
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 91px;
+}
+
+.timeline-card__list {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.timeline-card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.timeline-card__tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0 0.8rem;
+  border-radius: var(--radius-pill);
+  border: 0.0625rem solid rgba(29, 78, 216, 0.12);
+  background: rgba(29, 78, 216, 0.08);
+  color: var(--color-primary-strong);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.timeline-card--compact .timeline-card__list {
+  padding-left: 1rem;
+}
+
+@media (min-width: 64rem) {
+  .experience-secondary {
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: start;
+  }
+}

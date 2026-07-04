@@ -1,0 +1,45 @@
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.action-button:hover,
+.action-button:focus-visible {
+  transform: translateY(-0.125rem);
+}
+
+.action-button--primary {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.action-button--primary:hover,
+.action-button--primary:focus-visible {
+  background: var(--color-primary-strong);
+}
+
+.action-button--secondary {
+  border: 0.0625rem solid var(--color-border);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--color-text);
+}
+
+.action-button--secondary:hover,
+.action-button--secondary:focus-visible {
+  border-color: color-mix(in srgb, var(--color-primary) 28%, var(--color-border));
+  box-shadow: var(--shadow-sm);
+}

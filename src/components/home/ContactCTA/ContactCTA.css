@@ -1,0 +1,55 @@
+.contact-cta {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 0.0625rem solid var(--color-border);
+  border-radius: calc(var(--radius-xl) + 0.25rem);
+  background:
+    radial-gradient(circle at top left, rgba(29, 78, 216, 0.12), transparent 35%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 251, 255, 0.92));
+  box-shadow: var(--shadow-md);
+}
+
+.contact-cta__eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.contact-cta__title {
+  margin: 0;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  line-height: 1.1;
+}
+
+.contact-cta__description {
+  max-width: 60ch;
+  margin: 0.65rem 0 0;
+  color: var(--color-text-muted);
+}
+
+.contact-cta__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  width: fit-content;
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.contact-cta__button:hover,
+.contact-cta__button:focus-visible {
+  transform: translateY(-0.125rem);
+  background: var(--color-primary-strong);
+}
