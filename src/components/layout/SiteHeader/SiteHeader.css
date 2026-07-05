@@ -1,7 +1,9 @@
 .site-header {
   display: grid;
+  width: min(100% - (var(--container-gutter) * 2), var(--container-width));
+  margin-inline: auto;
   gap: 1rem;
-  padding: 1rem 0 1.25rem;
+  padding: 1rem 0 1rem;
 }
 
 .site-header__brand {
