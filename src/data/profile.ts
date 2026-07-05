@@ -65,7 +65,7 @@ export const profile = {
     {
       title: 'Frontend Developer / Web Developer',
       company: 'Varadero Software Factory',
-      period: 'Jun 2022 - Actualidad',
+      period: 'Sep 2022 - Actualidad',
       responsibilities: [
         'Desarrollo de nuevas funcionalidades y evolución de aplicaciones web y móviles para distintos clientes, adaptando las soluciones a necesidades funcionales y de negocio.',
         'Mantenimiento evolutivo y correctivo de productos digitales, abordando mejoras, incidencias y ajustes orientados a estabilidad y continuidad del servicio.',
@@ -89,7 +89,7 @@ export const profile = {
     {
       title: 'Frontend Developer React',
       company: 'IT Academy Barcelona Activa',
-      period: 'Mar 2022 - Sep 2022',
+      period: 'Feb 2022 - Sep 2022',
       responsibilities: [
         'Desarrollo de una aplicación web orientada a la gestión de compraventa y alquiler de viviendas.',
         'Construcción de la interfaz de usuario con React y JavaScript, aplicando maquetación responsive y estructura de componentes reutilizables.',
