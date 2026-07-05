@@ -14,7 +14,7 @@ export const profile = {
     email: 'monicabartolome7@gmail.com',
     phone: '+34630016200',
     github: 'https://github.com/monicab1989',
-    linkedin: 'https://www.linkedin.com/in/monica-bartolome-gonzalez-691777b3/',
+    linkedin: 'www.linkedin.com/in/monicabartolomegonzalez',
   },
   focus: [
     'React',
