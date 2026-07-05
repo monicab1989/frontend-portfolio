@@ -113,3 +113,9 @@
     align-items: start;
   }
 }
+
+@media (max-width: 599px) {
+  .timeline-card__header {
+    flex-direction: column;
+  }
+}
